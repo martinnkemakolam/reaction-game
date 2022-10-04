@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reaction game</title>
+</head>
+<body>
+    <div class="scoreRecord" id="scoreRecord">
+        
+    </div>
+    <div class="gameBody" id="gameBody">
+        <div class="gameSpace" id="gameSpace">
+            <div class="directPlayer" id="directPlayer">
+                <p id="text">click on the black circle to start</p>
+                <br>
+                <div class="button">
+                    <button id="btn" class="btn">PLAY AGAIN</button>
+                </div>
+             </div>
+        </div>
+        <div class="gameObject" id="gameObject"> 
+        </div>
+        <div class="gameObject2" id="gameObject2"> 
+        </div>
+        <div class="scoreAndTime" id="scoreAndTime">
+            <div class="display score">
+                <p>score:</p>
+                <span id="score">0</span>
+            </div>
+            <div class="display time">
+                <p>time:</p>
+                <span id="time">3</span>
+            </div>
+        </div>
+    </div>
+    <div class="pause" id="pause">
+        <div class="bar right"></div>
+        <div class="bar left"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
